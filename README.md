@@ -164,11 +164,6 @@ docker compose up -d --force-recreate  # Redéploie les services
 
 ---
 
-## 🚀 Migration vers un autre serveur
-Voir la section "Migration" pour sauvegarder et restaurer les volumes Docker afin de conserver toutes les configurations et données.
-
----
-
 ## 🛠️ Contribuer
 Si vous souhaitez contribuer à ce projet, n’hésitez pas à proposer une **issue** ou une **pull request** !
 
