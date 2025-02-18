@@ -22,7 +22,6 @@ Ce projet permet de **monitorer et gérer ses conteneurs Docker** avec une stack
 │           └── datasources.yml # Configuration de Prometheus pour Grafana
 └── prometheus.yml      # Configuration de Prometheus
 ```
-📌 **Les dossiers `grafana/provisioning/dashboards/` et `grafana/dashboards/` ne sont pas inclus par défaut, mais peuvent être ajoutés si vous souhaitez importer un dashboard Docker automatiquement.**
 
 ---
 
@@ -98,7 +97,7 @@ https://domain.fr {
 📌 **Remplace `domain.fr` par ton propre domaine !**
 
 #### 📝 **(Optionnel) Importer un Dashboard Docker dans Grafana**
-Si vous souhaitez importer automatiquement un dashboard Docker dans Grafana, suivez ces étapes :
+Si vous souhaitez importer un dashboard Docker dans Grafana, suivez ces étapes :
 ```bash
 mkdir -p grafana/provisioning/dashboards
 nano grafana/provisioning/dashboards/dashboard.yml
